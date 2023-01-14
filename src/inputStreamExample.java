@@ -4,9 +4,9 @@ public class InputStreamExample {
             try{
                 //fine = file input stream example
                 FileInputStream fine =new FileInputStream("C:\\Users\\Sina\\Desktop\\readsAllCharacters.txt");
-                int i=0;
+                int i = 0;
                 // -1 means until it has more characters to read
-                while((i=fine.read())!=-1){
+                while((i =f ine.read()) != -1){
                     System.out.print((char)i);
                 }
                 fine.close();
