@@ -1,5 +1,5 @@
 import java.io.*;
-public class outputStreamExample {
+public class OutputStreamExample {
         public static void main(String args[]){
             try{
                 FileOutputStream fose=new FileOutputStream("C:\\Users\\Sina\\Desktop\\readsAllCharacters.txt");
