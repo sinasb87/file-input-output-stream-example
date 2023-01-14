@@ -1,5 +1,5 @@
 import java.io.*;
-public class inputStreamExample {
+public class InputStreamExample {
         public static void main(String args[]){
             try{
                 //fine = file input stream example
