@@ -6,7 +6,7 @@ public class InputStreamExample {
                 FileInputStream fine =new FileInputStream("C:\\Users\\Sina\\Desktop\\readsAllCharacters.txt");
                 int i = 0;
                 // -1 means until it has more characters to read
-                while((i =fine.read()) != -1){
+                while((i = fine.read()) != -1){
                     System.out.print((char)i);
                 }
                 fine.close();
